@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "deel",
+      "source": "@deel/v2.1.86#14ngh6c8magiut8b",
+      "integrity": "sha512-1Cma8HGRf/CiyZVtFtYtZVDtSAXeYVk0RjtMnThCkiI+MCXRDOjdpTok7fzjDoHvkeK9n13cAejPIFJGr4PciQ==",
+      "installerVersion": "6.1.3"
+    }
+  ]
+}
