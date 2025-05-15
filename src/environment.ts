@@ -1,7 +1,9 @@
 export default class Environment {
   static instance: Environment;
 
-  private constructor() {}
+  private constructor() {
+    process.loadEnvFile();
+  }
 
   static getInstance(): Environment {
     if (!Environment.instance) {
