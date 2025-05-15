@@ -96,3 +96,16 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+### Run the app
+
+Install the dependencies:
+```bash
+pnpm install:deps
+```
+
+Run the app:
+```bash
+pnpm start
+```
