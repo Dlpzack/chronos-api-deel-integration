@@ -1,11 +1,18 @@
 {
   "name": "@api/deel",
   "version": "1.25.0",
-  "main": "./index.ts",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
   "dependencies": {
     "api": "^6.1.3",
     "json-schema-to-ts": "^2.8.0-beta.0",
     "oas": "^20.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
   }
 }
