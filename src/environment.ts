@@ -19,4 +19,8 @@ export default class Environment {
   get DeelAPIUrl(): string {
     return process.env.DEEL_API_URL || 'https://api.deel.com/v1';
   }
+
+  get DeelWebhookSigningKey(): string {
+    return process.env.DEEL_WEBHOOK_SIGNING_KEY || '';
+  }
 }
