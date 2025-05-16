@@ -6,3 +6,14 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "npm run start:dev"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Setup applicatioon"
+mode = "sequential"
+author = 42045556
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pnpm install:deps"
